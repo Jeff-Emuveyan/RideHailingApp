@@ -1,0 +1,36 @@
+<resources>
+    <string name="menu_home">Home</string>
+    <string name="menu_history">History</string>
+    <string name="menu_profile">Profile</string>
+    <string name="campaign">1 Active campaign</string>
+    <string name="choose_your_ride_mode">Choose your ride mode</string>
+    <string name="join_a_ride">Join a Ride</string>
+    <string name="book_your_seat">Book your seat</string>
+    <string name="offer_ride">Offer Ride</string>
+    <string name="share_your_trip">Share your trip</string>
+    <string name="you">You</string>
+    <string name="passenger">Passenger</string>
+    <string name="destination">Destination</string>
+    <string name="get_to_pickup">Get to pickup...</string>
+    <string name="_4_min_away">4 min away</string>
+    <string name="to_pick">To Pick</string>
+    <string name="darrell_steward">Darrell Steward</string>
+    <string name="pick_up_point">Pick-up point</string>
+    <string name="ladipo_oluwole_street">Ladipo Oluwole Street</string>
+    <string name="_4_mins">· 4 mins</string>
+    <string name="eta">"ETA "</string>
+    <string name="available_seats">Available\nseats</string>
+    <string name="passengers_accepted">Passengers\naccepted</string>
+    <string name="rider_is_arriving">Rider is arriving...</string>
+    <string name="_04_45">04:45</string>
+    <string name="waiting_time">Waiting time</string>
+    <string name="nneka_chukwu">Nneka Chukwu</string>
+    <string name="didn_t_show">Didn’t show</string>
+    <string name="picked_up">Picked up</string>
+    <string name="to_pick_up">To Pick up</string>
+    <string name="heading_to">Heading to</string>
+    <string name="through_aromire_str_4_min">Through Aromire Str. • 4 min</string>
+    <string name="community_road">Community Road</string>
+    <string name="starting_point">Starting Point</string>
+    <string name="to_drop_off">To drop off</string>
+</resources>

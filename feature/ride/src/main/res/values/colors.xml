@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_green">#2dfea0</color>
+    <color name="divider">#B0B0B0</color>
+    <color name="dark_orange">#D27B0D</color>
+    <color name="border_blue">#9EC0FF</color>
+    <color name="pale_green">#EAFFF6</color>
+    <color name="eta_blue">#EAF1FF</color>
+    <color name="eta_green">#BEFFE2</color>
+    <color name="complete_green">#3A711A</color>
+    <color name="progress_green">#29E892</color>
+    <color name="complete_ash">#F0F0F0</color>
+</resources>

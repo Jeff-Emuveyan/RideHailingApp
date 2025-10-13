@@ -16,10 +16,8 @@ Passengers can easily track the driver’s progress and, at the end of the ride,
 
 Here is a screen recording of the entire workflow of the application:
 
-[![Watch the video](https://firebasestorage.googleapis.com/v0/b/voiceoffreedom-9cdf9.appspot.com/o/Screen_recording_20251013_144526.webm?alt=media&token=2c911408-243e-4175-8823-07ec16cdb45f)
-
 <a href="https://firebasestorage.googleapis.com/v0/b/voiceoffreedom-9cdf9.appspot.com/o/Screen_recording_20251013_144526.webm?alt=media&token=2c911408-243e-4175-8823-07ec16cdb45f" target="_blank">
-  <img src="https://firebasestorage.googleapis.com/v0/b/voiceoffreedom-9cdf9.appspot.com/o/c.png?alt=media&token=5066b0f3-fe4c-4ca3-ac9e-a359a4bec725" alt="Watch the video" width="600">
+  <img src="" alt="Watch the video" width="100">
 </a>
 
 ### Build & Run Requirements

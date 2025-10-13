@@ -32,7 +32,7 @@ For the best **UI experience** and proper layout rendering, it is recommended to
 ### Architecture
 
 While developing this application, I used the **Google recommended** [android app architecture](https://developer.android.com/topic/architecture#recommended-app-arch) 
-as a guideline to organize the code base into three distint layers: UI layer, Domain layer and Data layer.
+as a guideline to organize the code base into three distint layers: UI(feature) layer, Domain layer and Data layer.
 
 The UI layer of the app is written completely in Jetpack Compose. There are no Fragments, only Composable screens.
 
@@ -42,6 +42,18 @@ I also followed the **Google recommended** [modularization structure](https://de
 and I grouped the code base into three main modules: 
 1) ```app```: This is the container module of the application. Its sole duty is to display all features of the application
 2) ```core```: The core module serves as the base module. It contains code that can be resued across any part of the code base.
-3) ```feature```: The feature module contains all features of the application.
+3) ```feature```: The feature module contains all features of the application. In this case, we only have one feature with is offer ride.
+4) ```data```: contains all data related classes of the application.
+5) ```domain```: contains the core business logic and use cases that define what the app does, independent of any UI or data framework.
 
+### Tests
+
+The code base contains unit tests and UI test for the Composable screens. These can be found here:
+#### Unit tests:
+1) https://github.com/Jeff-Emuveyan/RideHailingApp/blob/main/data/ride/src/test/java/com/example/ride/RideRepositoryTest.kt
+2) https://github.com/Jeff-Emuveyan/RideHailingApp/blob/main/domain/src/test/java/com/example/domain/GetRideDetailsUseCaseTest.kt
+3) https://github.com/Jeff-Emuveyan/RideHailingApp/blob/main/feature/ride/src/test/java/com/example/ride/RideViewModelTest.kt
+#### UI tests:
+1) https://github.com/Jeff-Emuveyan/RideHailingApp/blob/main/feature/ride/src/androidTest/java/com/example/ride/ChooseRideModeDialogTest.kt
+2) https://github.com/Jeff-Emuveyan/RideHailingApp/blob/main/feature/ride/src/androidTest/java/com/example/ride/PickUpDialogTest.kt
 

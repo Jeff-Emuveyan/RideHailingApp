@@ -18,6 +18,10 @@ Here is a screen recording of the entire workflow of the application:
 
 [![Watch the video](https://firebasestorage.googleapis.com/v0/b/voiceoffreedom-9cdf9.appspot.com/o/Screen_recording_20251013_144526.webm?alt=media&token=2c911408-243e-4175-8823-07ec16cdb45f)
 
+<a href="https://firebasestorage.googleapis.com/v0/b/voiceoffreedom-9cdf9.appspot.com/o/Screen_recording_20251013_144526.webm?alt=media&token=2c911408-243e-4175-8823-07ec16cdb45f" target="_blank">
+  <img src="https://firebasestorage.googleapis.com/v0/b/voiceoffreedom-9cdf9.appspot.com/o/c.png?alt=media&token=5066b0f3-fe4c-4ca3-ac9e-a359a4bec725" alt="Watch the video" width="600">
+</a>
+
 ### Build & Run Requirements
 To successfully build and run this project, ensure that you have the following setup:
 1) Android Studio: Narwhal (or newer)
@@ -67,7 +71,8 @@ of the app.
 This test can be found here:
 https://github.com/Jeff-Emuveyan/RideHailingApp/blob/main/benchmark/src/main/java/com/example/benchmark/ExampleStartupBenchmark.kt
 
-## Automation testing
+### Automation testing 🤖
 
 I also added automation test using [UIAutomator](https://developer.android.com/training/testing/other-components/ui-automator) to automate the end to end flow of the application from when the clicks on the button to book a ride to when the ride has completed successfully.
+
 The automation test can be found here: https://github.com/Jeff-Emuveyan/RideHailingApp/blob/main/app/src/androidTest/java/com/example/assessment/AutomationTest.kt

@@ -57,3 +57,17 @@ The code base contains unit tests and UI test for the Composable screens. These 
 1) https://github.com/Jeff-Emuveyan/RideHailingApp/blob/main/feature/ride/src/androidTest/java/com/example/ride/ChooseRideModeDialogTest.kt
 2) https://github.com/Jeff-Emuveyan/RideHailingApp/blob/main/feature/ride/src/androidTest/java/com/example/ride/PickUpDialogTest.kt
 
+### Something extra! 😁
+
+It is very important to monitor the performance of an android app so that issues such as slow startup time and UI jank can be spotted early and resolved.
+
+Because of this, I wrote a [macrobenchmark](https://developer.android.com/topic/performance/benchmarking/macrobenchmark-overview) test to monitor the startup time
+of the app.
+
+This test can be found here:
+https://github.com/Jeff-Emuveyan/RideHailingApp/blob/main/benchmark/src/main/java/com/example/benchmark/ExampleStartupBenchmark.kt
+
+## Automation testing
+
+I also added automation test using [UIAutomator](https://developer.android.com/training/testing/other-components/ui-automator) to automate the end to end flow of the application from when the clicks on the button to book a ride to when the ride has completed successfully.
+The automation test can be found here: https://github.com/Jeff-Emuveyan/RideHailingApp/blob/main/app/src/androidTest/java/com/example/assessment/AutomationTest.kt

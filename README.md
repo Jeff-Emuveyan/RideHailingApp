@@ -14,7 +14,7 @@ This project is a ride hailing Android application that allows users to either o
 
 Passengers can easily track the driver’s progress and, at the end of the ride, indicate whether the rider arrived or did not arrive, ensuring a transparent and reliable experience for all users.
 
-Here is a screen recording of the entire workflow of the application:
+**Here is a screen recording of the entire workflow of the application**:
 
 <a href="https://firebasestorage.googleapis.com/v0/b/voiceoffreedom-9cdf9.appspot.com/o/Screen_recording_20251013_144526.webm?alt=media&token=2c911408-243e-4175-8823-07ec16cdb45f" target="_blank">
   <img src="" alt="Watch the video" width="100">

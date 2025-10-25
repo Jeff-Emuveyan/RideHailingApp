@@ -5,6 +5,7 @@ import androidx.test.filters.SdkSuppress
 import androidx.test.uiautomator.Direction
 import androidx.test.uiautomator.textAsString
 import androidx.test.uiautomator.uiAutomator
+import org.junit.Assert
 import org.junit.Test
 import org.junit.runner.RunWith
 
@@ -41,8 +42,8 @@ class AutomationTest {
 	
 	fun seesRideCompleteMessage() {
 		uiAutomator {
-			onElement(timeoutMs = 60_000) { textAsString() == "Trip Complete! Thank You." }
-				.swipe(Direction.RIGHT, 0.5f)
+			val successMessage = onElementOrNull(timeoutMs = 60_000) { textAsString() == "Trip Complete! Thank You." }
+			Assert.assertNotNull(successMessage)
 		}
 	}
 }
